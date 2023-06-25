@@ -17,6 +17,7 @@ while True:
 
     except:#se o numero não for valido, ele recebe False
         numero_valido = None #se o numero for invalido, ele recebe None
+        
 
     if numero_valido is None:#se o numero for invalido, ele exibe a mensagem e continua o programa
         print('Você digitou um número inválido')
